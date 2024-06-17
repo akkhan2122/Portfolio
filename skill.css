@@ -313,13 +313,13 @@ to {
 }
 to {
     width: 85%}
-}#Skill-SQL {
+}#Skill-REACT {
     animation: Animate-SQL 4s;
     -webkit-animation: Animate-SQL 4s;
     -moz-animation: Animate-SQL 4s;
     -o-animation: Animate-SQL 4s;
     border-radius:20px;
-    width: 80%;
+    width: 75%;
     height: 50px;
     position: absolute;
     background-color: #6c63ff;
@@ -374,3 +374,14 @@ to {
     color: #868e96;
     text-align: center;
   }
+  #Skill-NODEJS {
+    animation: Animate-SQL 4s;
+    -webkit-animation: Animate-SQL 4s;
+    -moz-animation: Animate-SQL 4s;
+    -o-animation: Animate-SQL 4s;
+    border-radius:20px;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #6c63ff;
+}
