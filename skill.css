@@ -314,35 +314,35 @@ to {
 to {
     width: 85%}
 }#Skill-REACT {
-    animation: Animate-SQL 4s;
-    -webkit-animation: Animate-SQL 4s;
-    -moz-animation: Animate-SQL 4s;
-    -o-animation: Animate-SQL 4s;
+    animation: Animate-REACT 4s;
+    -webkit-animation: Animate-REACT 4s;
+    -moz-animation: Animate-REACT 4s;
+    -o-animation: Animate-REACT 4s;
     border-radius:20px;
     width: 75%;
     height: 50px;
     position: absolute;
     background-color: #6c63ff;
 }
-@keyframes Animate-SQL {
+@keyframes Animate-REACT {
     from {
     width: 10px;
 }
 to {
     width: 80%}
-}@-webkit-keyframes Animate-SQL {
+}@-webkit-keyframes Animate-REACT {
     from {
     width: 10px;
 }
 to {
     width: 80%}
-}@-moz-keyframes Animate-SQL {
+}@-moz-keyframes Animate-REACT {
     from {
     width: 10px;
 }
 to {
     width: 80%}
-}@-o-keyframes Animate-SQL {
+}@-o-keyframes Animate-REACT {
     from {
     width: 10px;
 }
@@ -375,13 +375,39 @@ to {
     text-align: center;
   }
   #Skill-NODEJS {
-    animation: Animate-SQL 4s;
-    -webkit-animation: Animate-SQL 4s;
-    -moz-animation: Animate-SQL 4s;
-    -o-animation: Animate-SQL 4s;
+    animation: Animate-NODEJS 4s;
+    -webkit-animation: Animate-NODEJS 4s;
+    -moz-animation: Animate-NODEJS 4s;
+    -o-animation: Animate-NODEJS 4s;
     border-radius:20px;
     width: 75%;
     height: 50px;
     position: absolute;
     background-color: #6c63ff;
+}
+
+@keyframes Animate-NODEJS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-NODEJS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-NODEJS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-NODEJS {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
 }
