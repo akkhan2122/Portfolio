@@ -1,0 +1,152 @@
+1: What is HTML and what does it stand for?
+HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages.
+HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the
+browser how to display the content.
+
+2:What is the purpose of HTML5?
+HTML5 was designed with major objectives, including: Making code easier to read for users and screen readers.
+ Reducing the overlap between HTML, CSS, and JavaScript. Promoting design responsiveness and consistency 
+across browsers.
+
+3:What are the differences between HTML and XHTML?
+HTML (HypertextMarkup Language) and XHTML (ExtensibleHypertext Markup Language) are both markup
+languages used for creating and displaying web pages. The main difference between them is the syntax and 
+structure; HTML is more lenient in its syntax, while XHTML has a more strict syntax and follows XML rules.
+
+4:Explain the DOCTYPE declaration in HTML.
+The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in.
+This ensures that the web page is parsed the same way by different web browsers. In HTML 4.01, the DOCTYPE 
+declaration refers to a document type definition (DTD)
+
+5:What are semantic HTML elements? Can you give some examples?
+What are Semantic Elements? A semantic element clearly describes its meaning to both the browser and the developer. 
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. Examples of semantic elements:
+<form> , <table> , and <article> - Clearly defines its content.
+
+6:Describe the difference between <div> and <span> tags.
+Span and div are both generic HTML elements that group together related parts of a web page. However, they serve different
+functions. A div element is used for block-level organization and styling of page elements, whereas a span element is used
+for inline organization and styling.
+
+7:How do you embed audio and video in HTML?
+To embed audio in HTML, we use the <audio> tag. Before HTML5, audio cannot be added to web pages in the Internet 
+Explorer era. To play audio, we used web plugins like Flash. After the release of HTML5, it is possible. This tag supports 
+Chrome, Firefox, Safari, Opera, and Edge in three audio formats – MP3, WAV, OGG. Only Safari browser doesn’t support
+OGG audio format.
+
+8:What is the purpose of the alt attribute in <img> tags?
+The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. The alt attribute provides
+alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src
+attribute, or if the user uses a screen reader).
+
+9:What are some new features introduced in HTML5?
+Semantic elements
+Localstroage
+
+10:What is the difference between <script> tag placement, i.e., in <head> and <body>?
+The <script> tag inside the <head> tag usually makes the html page loading slower. This is because the html parser is loaded
+ first and as soon as it encounters <script> it has to load the JavaScript interpreter first and then after the script is loaded it has
+ to return back to the html parsing. This wastes some time.
+
+11:What is CSS? What are its advantages?
+CSS, or Cascading Style Sheets, is a stylesheet language used in web design to control the layout and presentation of web pages
+It's essential because it allows designers to customize the appearance of websites, making them visually appealing and
+user-friendly.
+
+12:Explain the difference between inline, internal, and external CSS?
+External: Can apply to multiple elements in multiple pages. Internal: Can apply to multiple elements on a single page.
+Inline: Typically used to apply styling to a single element on a single page.
+
+13:How do you select elements with CSS selectors? Provide examples.
+The CSS id Selector
+The id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within
+a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) 
+character, followed by the id of the element.
+
+14:What is the box model in CSS? How does it work?
+Box model overview
+A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is 
+optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these
+elements work together to create a box as displayed by CSS.
+
+15:What is the difference between margin and padding?
+Margin is an external element, which means it exists outside the box. It controls the spacing between different elements (boxes)
+and between the element (box) with the edge of the screen. Padding, on the contrary, determines inside spacing, which can 
+control how much the background color is visible around the content
+
+16:What is the importance of z-index in CSS?
+z-index is the CSS property that controls the stacking order of overlapping elements on a page. An element with a higher 
+z-index value will appear in front of an element with a lower z-index value. The property is called “z-index” because it sets
+the order of elements along the z-axis
+
+17:How do you center elements horizontally and vertically in CSS?
+In conclusion, centering a div both horizontally and vertically in CSS can be achieved through a variety of methods,
+including using the display: flex and display: grid properties, position: absolute and transform: translate , display: table
+and display: table-cell , and line-height .
+
+18:What are media queries in CSS? How are they used?
+Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size
+of the viewport, but they can also be used to detect other things about the environment your site is running on, for
+example whether the user is using a touchscreen rather than a mouse
+
+19:Explain the difference between absolute and relative positioning in CSS.
+In summary, relative positioning moves an element relative to its default position on the page, while absolute positioning 
+moves an element relative to its nearest positioned ancestor. Thank you so much for explaining it in so simple words.
+I understood it now. I will practice this to get more comfortable.
+
+20:What is the purpose of CSS preprocessors like Sass and LESS?
+Understanding CSS Preprocessors
+These tools extend the capabilities of standard CSS by introducing features like variables, functions, mixins, and more.
+These enhancements simplify the process of writing and maintaining complex stylesheets, making your code more
+organized and efficient
+
+21:What is JavaScript? How is it different from Java?
+While Java is an object-based programming language, JavaScript is an OOP(object-oriented program. JavaScript is more
+commonly used in web applications like browsers, while Java is more widely used in app development, smart devices and
+ back-end applications. What pays more?
+
+22:Explain the difference between undefined and null in JavaScript.
+In JavaScript, null and undefined are two distinct types that represent different values. By definition, undefined means a 
+variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a
+variable has been declared and given the value of null .
+
+23:What are closures in JavaScript? Can you provide an example?
+What is closure in JavaScript? Closure in JavaScript is a form of lexical scoping used to preserve variables from the outer 
+scope of a function in the inner scope of a function. Lexical scoping is the process used to define the scope of a variable 
+by its position in the source code.
+
+24:Describe the difference between == and === in JavaScript.
+The main difference between the two operators is how they compare values. The == operator compares the values of two 
+variables after performing type conversion if necessary. On the other hand, the === operator compares the values of two 
+variables without performing type conversion. In the first console.
+
+25:What is the DOM in JavaScript?
+What is the DOM? The Document Object Model (DOM) is a programming interface for web documents. It represents the
+page so that programs can change the document structure, style, and content. The DOM represents the document as 
+nodes and objects; that way, programming languages can interact with the page.
+
+26:How do you create and manipulate arrays in JavaScript?
+The simplest way to create an array in JavaScript is enclosing a comma-separated list of values in square brackets ( [] ),
+as shown in the following syntax: var myArray = [element0, element1, ..., elementN]; Array can also be created using 
+the Array() constructor as shown in the following syntax.
+
+27:Explain the concept of event bubbling and event capturing.
+Event Bubbling and Capturing
+Bubbling and Capturing are the two phases of propagation. In their simplest definitions, bubbling travels from the target to 
+the root, and capturing travels from the root to the target. However, that doesn't make much sense without first defining what
+a target and a root is.
+
+28:What are promises in JavaScript? How do they work?
+A Promise is an object representing the eventual completion or failure of an asynchronous operation. Since most people are 
+onsumers of already-created promises, this guide will explain consumption of returned promises before explaining how to 
+create them.
+
+29:Describe the difference between let, var, and const for declaring variables.
+To summarize: Use var if you want function-scoped variables that can be hoisted. Use let if you want block-scoped variables
+that can be reassigned. Use const if you want block-scoped variables that are constant and cannot be reassigned.
+
+30:How do you handle errors in JavaScript?
+
+When an error occurs, JavaScript will normally stop and generate an error message. The technical term for this is: 
+JavaScript will throw an exception (throw an error). JavaScript will actually create an Error object with two properties: 
+name and message.
